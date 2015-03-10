@@ -1,0 +1,24 @@
+/*
+ * Square Sync CSS
+ *
+ * Author: Ryan Donkersgoed
+ * www.ryandonkersgoed.com
+ */
+
+ul li.square_sync_item {
+    display: inline-block;
+    width: 20%;
+    margin: 1% 2%;
+    text-align: center;
+    vertical-align: top;
+}
+
+ul li.square_sync_item:nth-child(4n+1) {
+    margin-left: 1%;
+    margin-right: 2%;
+}
+
+ul li.square_sync_item img {
+    width: 100%;
+    height: auto;
+}
